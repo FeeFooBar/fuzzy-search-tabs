@@ -8,10 +8,9 @@ module.exports = {
     mode: "production",
     entry: {
         bundle: ["./src/index.tsx"],
-        background: ["./src/background.ts"],
     },
     output: {
-        path: path.resolve(__dirname, "build"),
+        path: path.resolve(__dirname, "dist/build"),
         filename: "[name].js",
     },
     module: {
