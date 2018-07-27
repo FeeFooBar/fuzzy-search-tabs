@@ -11,9 +11,9 @@ export module Browser {
 
     export function getAllTabs(callback: (tabs: any) => void): void {
         if (chrome && chrome.tabs) {
-            chrome.tabs.query({}, (tabs: any) => callback(tabs));
+            chrome.tabs.query({ currentWindow: true }, (tabs: any) => callback(tabs));
         } else {
-            browser.tabs.query({}, (tabs: any) => callback(tabs));
+            browser.tabs.query({ currentWindow: true }, (tabs: any) => callback(tabs));
         }
     }
 }
