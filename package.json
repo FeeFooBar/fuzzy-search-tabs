@@ -1,0 +1,33 @@
+{
+  "name": "fuzzy-search-tabs",
+  "version": "1.0.0",
+  "description": "Fuzzy search tabs",
+  "main": "index.js",
+  "author": "Feras Aldahlawi",
+  "license": "MIT",
+  "dependencies": {
+    "@types/chrome": "^0.0.70",
+    "@types/core-js": "^2.5.0",
+    "@types/prop-types": "^15.5.4",
+    "@types/react": "^16.4.7",
+    "@types/react-dom": "^16.0.6",
+    "awesome-typescript-loader": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.2",
+    "office-ui-fabric-react": "^6.39.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "sass-loader": "^7.0.3",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.21.0",
+    "typescript": "^2.9.2",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/webpack -p --config ./webpack.config.js"
+  }
+}

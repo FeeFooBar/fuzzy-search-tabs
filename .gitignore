@@ -1,0 +1,7 @@
+# Generated files
+*.scss.ts
+
+node_modules
+build
+
+*.log

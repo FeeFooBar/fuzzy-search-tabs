@@ -1,0 +1,32 @@
+{
+  "author": "Feras Aldahlawi",
+  "description": "FuzzySearch tabs",
+  "manifest_version": 2,
+  "name": "FuzzySearch",
+  "version": "1.0",
+  "permissions": [
+    "tabs"
+  ],
+  "icons": {
+    "32": "assets/icons/icons8-search-property-32.png",
+    "64": "assets/icons/icons8-search-property-64.png",
+    "96": "assets/icons/icons8-search-property-96.png"
+  },
+  "browser_action": {
+    "default_title": "FuzzySearch",
+    "default_popup": "build/index.html"
+  },
+  "background": {
+    "scripts": [
+      "build/background.js"
+    ],
+    "persistent": false
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Alt+P"
+      }
+    }
+  }
+}
