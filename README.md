@@ -1,7 +1,7 @@
 # FuzzySearch Tabs
 
 ## installiation
-npm install
+`npm install`
 
 ## building
-npm run build
+`npm run build`
