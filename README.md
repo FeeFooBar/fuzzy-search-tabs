@@ -1,5 +1,7 @@
 # FuzzySearch Tabs
 
+This extension is deperecated in favor of the build-in fuzzy tab search in Chromium. You can access it via a keyboard shortcut "SHITF+CMD+A" on MacOs.
+
 ## installiation
 `npm install`
 
